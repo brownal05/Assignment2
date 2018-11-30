@@ -25,8 +25,7 @@ Vol_Table_Row = 2
 
             Else
             Total_Vol = Total_Vol + Cells(i, 7).Value
-        
-           Next i
-
+        End If
+     Next i
 End Sub
 
